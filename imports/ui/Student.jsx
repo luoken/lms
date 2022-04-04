@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useTracker } from 'meteor/react-meteor-data';
 import { StudentsCollection } from '../api/students';
 import { Link } from 'react-router-dom';

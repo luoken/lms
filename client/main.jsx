@@ -7,7 +7,6 @@ import { Student } from '/imports/ui/Student';
 import { Group } from '/imports/ui/Group';
 import { AddStudent } from '/imports/ui/AddStudent';
 
-
 Meteor.startup(() => {
   render(
     <BrowserRouter>

@@ -26,7 +26,7 @@ export const AddStudent = () => {
       setParentName("");
       setParentEmail("");
       setGroup("");
-      navigate(-1);
+      navigate("/students", {replace: true});
     };
 
     return (
